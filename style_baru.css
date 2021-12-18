@@ -1,0 +1,38 @@
+body {
+    /* background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 10vh;
+    -webkit-animation: breath 7s ease-in-out infinite;
+    animation: breath 7s ease-in-out infinite;
+    font-family: "Fira Code", monospace;
+    color: #fff;
+    font-weight: bold; */
+}
+
+body .container {
+    width: 60%;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+}
+
+.img-pp {
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+}
+
+.container {
+    height: 200px;
+    width: 120px;
+}
+
+.tulisan {
+    size: 20px;
+    color: rgb(18, 187, 3);
+}
