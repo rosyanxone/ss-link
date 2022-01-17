@@ -13,25 +13,25 @@ body {
 }
 
 body .container.main {
-    width: 60%;
+    width: 90%;
     height: 600px;
 }
 
-body .container .row .col-md-12 .text-decoration-none .link-box {
+body .container .row .col-sm-12 .text-decoration-none .link-box {
     border: 2px solid rgb(0, 0, 0);
     background-color: black;
     padding: 15px 0;
     font-family: "Fira Code", monospace;
-    font-size: 20px;
+    font-size: 100%;
     font-weight: 500;
     color: rgb(255, 255, 255);
 }
 
-body .container .row .col-md-12 .text-decoration-none .link-box a {
+body .container .row .col-sm-12 .text-decoration-none .link-box a {
     color: #fff;
 }
 
-body .container .row .col-md-12 .text-decoration-none .link-box:hover {
+body .container .row .col-sm-12 .text-decoration-none .link-box:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     -webkit-transition: color 1s;
@@ -40,7 +40,7 @@ body .container .row .col-md-12 .text-decoration-none .link-box:hover {
 
 .img-profile {
     margin-top: 20px;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -64,7 +64,7 @@ footer p {
 }
 
 @media all and(max-width: 1000px) {
-    body .container .row .col-md-12 .text-decoration-none .link-box:hover {
+    body .container .row .col-sm-12 .text-decoration-none .link-box:hover {
         color: rgb(226, 32, 32);
         background-color: rgba(19, 129, 202, 0);
     }
