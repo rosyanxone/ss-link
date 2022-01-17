@@ -43,9 +43,25 @@ body .container .row .col-md-12 .text-decoration-none .link-box:hover {
     margin: 40px 0 60px 0;
 }
 
-footer {
-    margin-top: 57px;
+.kotak-bawah {
+    /* bg-dark text-white fw-bold text-center pt-3 pb-1 fs-5 pb-3 mb-0 position-relative */
+    /* margin-top: 57px; */
+    height: 200px;
+    width: 100px;
+    border-color: darkgrey;
+    color: #fff;
+    font-weight: bold;
+    font-size: 5px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 1;
+    font-size: 5px;
+    position: relative;
 }
 
-
-/*# sourceMappingURL=adit.css.map */
+@media all and(max-width: 1000px) {
+    body .container .row .col-md-12 .text-decoration-none .link-box:hover {
+        color: rgb(226, 32, 32);
+        background-color: rgba(19, 129, 202, 0);
+    }
+}
