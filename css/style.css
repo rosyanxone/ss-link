@@ -9,12 +9,12 @@ body {
     -webkit-animation: breath 7s ease-in-out infinite;
     animation: breath 7s ease-in-out infinite;
     font-family: "Fira Code", monospace;
-    color: #fff;
     font-weight: bold;
 }
 
-body .container {
+body .container.main {
     width: 60%;
+    height: 600px;
 }
 
 body .container .row .col-md-12 .text-decoration-none .link-box {
@@ -43,20 +43,25 @@ body .container .row .col-md-12 .text-decoration-none .link-box:hover {
     margin: 40px 0 60px 0;
 }
 
-.kotak-bawah {
-    /* bg-dark text-white fw-bold text-center pt-3 pb-1 fs-5 pb-3 mb-0 position-relative */
-    /* margin-top: 57px; */
-    height: 200px;
-    width: 100px;
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
     border-color: darkgrey;
-    color: #fff;
     font-weight: bold;
-    font-size: 5px;
     text-align: center;
-    padding-top: 3px;
+    padding-top: auto;
     padding-bottom: 1;
-    font-size: 5px;
+    clear: both;
     position: relative;
+    /* margin-top: 0px;
+    margin-bottom: auto; */
+}
+
+footer p {
+    color: #fff;
+    font-size: 1em;
+    padding-top: 20px;
 }
 
 @media all and(max-width: 1000px) {
