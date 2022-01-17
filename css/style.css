@@ -52,8 +52,9 @@ footer {
     text-align: center;
     padding-top: auto;
     padding-bottom: 1;
-    clear: both;
-    position: relative;
+    /* clear: both; */
+    position: fixed;
+    bottom: 0;
 }
 
 footer p {
