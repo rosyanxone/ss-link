@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap");
-body {
+
+/* Header */
+
+.img-profile {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* Blok Menu */
+
+
+/* body {} */
+
+body .container.main {
+    width: 60%;
+    height: 600px;
     background-color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-size: cover;
@@ -8,23 +24,15 @@ body {
     min-height: 10vh;
     -webkit-animation: breath 7s ease-in-out infinite;
     animation: breath 7s ease-in-out infinite;
-    font-family: "Fira Code", monospace;
+    /* font-family: "Fira Code", monospace; */
     font-weight: bold;
-}
-
-
-/* Blok Menu */
-
-body .container.main {
-    width: 60%;
-    height: 600px;
 }
 
 body .container .row .col-sm-12 .text-decoration-none .link-box {
     border: 2px solid rgb(0, 0, 0);
     background-color: black;
     padding: 15px 0;
-    font-family: "Fira Code", monospace;
+    /* font-family: "Fira Code", monospace; */
     font-size: 100%;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -41,11 +49,6 @@ body .container .row .col-sm-12 .text-decoration-none .link-box:hover {
     transition: color 1s;
 }
 
-.img-profile {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
 
 /* Contact */
 
@@ -55,7 +58,7 @@ section {
 }
 
 hr {
-    width: 75%;
+    width: 70%;
     height: 100px;
     border: 2px solid;
     margin: 0 auto;
@@ -85,6 +88,9 @@ footer p {
     font-size: 1em;
     padding-top: 20px;
 }
+
+
+/* Responsive */
 
 @media all and(max-width: 1000px) {
     body .container .row .col-sm-12 .text-decoration-none .link-box:hover {
