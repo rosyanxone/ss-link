@@ -88,6 +88,6 @@ footer p {
 @media (max-width: 767px) {
     body .container .row .col-sm-12 .text-decoration-none .link-box {
         /* background-color: rgb(255, 0, 0); */
-        width: 90%;
+        width: 100%;
     }
 }
