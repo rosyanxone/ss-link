@@ -8,15 +8,15 @@
 
 /* Blok Menu */
 
-body .container.main {
-    width: 60%;
+body .main {
+    /* width: 100%; */
     height: 600px;
     background-color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 10vh;
+    /* min-height: 10vh; */
     -webkit-animation: breath 7s ease-in-out infinite;
     animation: breath 7s ease-in-out infinite;
     /* font-family: "Fira Code", monospace; */
@@ -30,6 +30,8 @@ body .container .row .col-sm-12 .text-decoration-none .link-box {
     font-size: 100%;
     font-weight: 500;
     color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 0 auto;
 }
 
 body .container .row .col-sm-12 .text-decoration-none .link-box a {
@@ -83,9 +85,9 @@ footer p {
 
 /* Responsive */
 
-@media all and(max-width: 1000px) {
-    body .container .row .col-sm-12 .text-decoration-none .link-box:hover {
-        color: rgb(226, 32, 32);
-        background-color: rgba(19, 129, 202, 0);
+@media (max-width: 767px) {
+    body .container .row .col-sm-12 .text-decoration-none .link-box {
+        /* background-color: rgb(255, 0, 0); */
+        width: 90%;
     }
 }
